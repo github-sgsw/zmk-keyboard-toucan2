@@ -76,10 +76,10 @@
         mouse {
             display-name = "MOU";
             bindings = <
-                &trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-                &trans &trans &trans &trans &trans &trans           &trans &trans &trans &trans &trans &trans
-                            &mkp MCLK &mkp LCLK &mkp RCLK           &mkp LCLK &mkp RCLK &mkp MCLK
+                &trans    &kp Q &kp W &kp E &kp R &kp T           &trans &trans &trans &trans &trans &trans
+                &kp LCTRL &kp A &kp S &kp D &kp F &kp G           &trans &trans &trans &trans &trans &trans
+                &trans    &kp Z &kp X &kp C &kp V &kp B           &trans &trans &trans &trans &trans &trans
+                     &mkp MCLK &kp TAB &mt LSHIFT SPACE           &mkp LCLK &mkp RCLK &mkp MCLK
             >;
         };
 
